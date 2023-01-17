@@ -4,7 +4,9 @@
 
 ### Architects: [Elnara Rustamzade](https://www.linkedin.com/in/elnara-rustamzade-779396162/) and [Ruoyu Wang](www.linkedin.com/in/ruoyu-wang1)
 
-### Sponsors: [Prof. Jon Olson](https://twitter.com/ProfJEOlson), and the [Hildebrand Department of Petroleum and Geosystems Engineering](https://twitter.com/UT_PGE)
+### Home Department Chair and Hackathon Suporter: [Prof. Jon Olson](https://twitter.com/ProfJEOlson)
+
+### Sponsors: [ComboCurve Inc.](https://www.combocurve.com/), [Pioneer Oil Company Inc.](https://pioneeroil.net/), [Chevron](https://www.chevron.com) and [Baker Hughes](https://www.bakerhughes.com/)
 
 ### Coordination and Student Engagement: Gabby Banales, Trevor Oxley, Samantha Rabinowitz and Stacia Miller
 
