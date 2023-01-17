@@ -6,47 +6,42 @@
 
 ### Sponsors: [Prof. Jon Olson](https://twitter.com/ProfJEOlson), and the [Hildebrand Department of Petroleum and Geosystems Engineering](https://twitter.com/UT_PGE)
 
-### Organization and Student Engagement: Gabby Banales, Sara Hernando and Tracey Wilson
+### Coordination and Student Engagement: Gabby Banales, Trevor Oxley, Samantha Rabinowitz and Stacia Miller
 
 ___
 
-### Energy A.I. Problem Description 
+### Energy A.I. Hackathon 2023 Problem Description 
 
 **Goal**: Develop a data analytics and machine learning workflow in Python to:
 
-1. classify whether an Artifical Lift ESP will **"fail" or "not fail" within 30 days**.
-2. predict the **status of the test cases**.
+* prediction / classification **"fail" or "not fail" within 30 days** for 40 Artifical Lift Electronic Submersible Pumps
  
 #### Background
 
-In order to prevent the production loss caused by Electronic Submersible Pump(ESP) failures in Artifical Lifts, we challenge the Energy A.I. hackathon teams of The University of Texas at Austin, engineering and science students to build a data-driven model to detect when an ESP is nearing failure.
+In order to prevent the production loss caused by Electronic Submersible Pump (ESP) failures in Artifical Lifts, we challenge the Energy A.I. Hackathon 2023 teams of The University of Texas at Austin, engineering and science students to build a data-driven model to detect when an ESP is within 30 days of failure.
 
 This will require:
 
 * data analysis and evaluation of multiple data sources and a variety of features
-* feature engineering including feature selection/transformation/imputation
+* feature engineering including feature selection, feature transformations and feature imputation to address missing data
 * integration of domain expertise at every step
 * selection, training and tuning robust machine learning prediction models  
 
-<!-- This data-driven approach will replace the conventional engineering and geoscience approach:
-
-* characterizing and modeling the subsurface
-* physics-based fluid flow simulations -->
-
+Your model will be applied to support preventative maintenance by identifying ESPs within 30 days of failure for inspection and repair.  
 ___
 
 ### Available Data Files Inventory
 
 You have the following available data:
 
-#### Well/Pump Data
+#### Well / ESP Data
 
-* **wellData.csv** - data on 166 unique pumps installed on 146 wells. For example, if an ESP fails and a new ESP is installed, there will be two rows for one well - one for ESP_1 and another for ESP_2.
+* **wellData.csv** - data on 166 unique ESPs installed on 146 wells. For example, if an ESP fails and a new ESP is installed, there are two rows for one well, one for ESP_1 and another for ESP_2.
 
 The features include:
 
-* **AL_Bottom_Depth (ft)** - the depth at which an ESP is landed
-* **ESP_Pump_Stages** - the components that impart a pressure rise to the fluid
+* **AL_Bottom_Depth (ft)** - the depth at which an ESP is positioned in the well
+* **ESP_Pump_Stages** - the number of impellers that impart a pressure rise to the fluid
 * **DLS_Critical (degree/100ft)** - critical dogleg severity; until a dog-leg reaches this threshold value, no drill stem fatigue damage occurs
 * **ESP_Motor_Frequency_Rating (Hz)** - rated frequency of the motor
 * **ESP_Motor_Current_Rating (A)** - rated current of the motor
@@ -80,9 +75,9 @@ The features include:
 
 Comments: 
 
-* all the well names are masked (replaced with simple indices).
+* all the well names are anonymized (replaced with simple indices).
 * NaN in the file indicate missing data.
-
+* the source of the data is confidential. Do not attempt to determine the source of the data.
 
 ___
 
@@ -90,7 +85,7 @@ ___
 
 <span style='color:red'>Links below will be changed when all files are pushed to github</span>
 
-By January 22 at noon each team must submit:
+By January 22 at 12:00 noon each team must submit:
 
 * **Solution Table** - a .csv file with your predictions for the **test cases** using the template given in [Sample_Submission.csv](Sample_Submission.csv) in this directory.
 
@@ -99,12 +94,12 @@ By January 22 at noon each team must submit:
 
 * **Python Workflow and Associated Files** - committed to this repository with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
 
-    * the file must be named 'xxxx.ipynb' and pushed to GitHub (folder [scoring/workflow](scoring/workflow)  for review and scoring (for code readability) by the hackathon architects, , where **xxxx** is your team name.
+    * the file must be named 'xxxx.ipynb' and pushed to GitHub (folder [scoring/workflow](scoring/workflow) for review and scoring (for code readability) by the hackathon architects, , where **xxxx** is your team name.
 
 
 * **Presentation** - a PowerPoint slide deck .PPTX file for your team's final presentation to our judges. The submitted presentation should follow the format of the provided example presentation [Hackathon_PresentationTemplate](https://github.com/PGEHackathon/resources/blob/master/Hackathon_PresentationTemplate.pptx).
 
-    * the file must be named 'xxxx.pdf' and pushed to GitHub (folder [scoring/presentation](scoring/presentation) for review by the judges, where **xxxx** is your team name.
+    * the file must be named 'xxxx.pptx' and pushed to GitHub (folder [scoring/presentation](scoring/presentation) for review by the judges, where **xxxx** is your team name.
 
 The Workflow, Presentation submission templates and the results submission template are in the [PGEHackathon/resources](https://github.com/PGEHackathon/resources) repository.
 
