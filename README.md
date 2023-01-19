@@ -2,7 +2,7 @@
 
 ## Hosts: [Prof. Michael Pyrcz](https://twitter.com/GeostatsGuy) and [Prof. John T. Foster](https://twitter.com/johntfoster)
 
-### Architects: [Elnara Rustamzade](https://www.linkedin.com/in/elnara-rustamzade-779396162/) and [Ruoyu Wang](www.linkedin.com/in/ruoyu-wang1)
+### Architects: [Elnara Rustamzade](https://www.linkedin.com/in/elnara-rustamzade-779396162/) and [Ruoyu Wang](https://www.linkedin.com/in/ruoyu-wang1)
 
 ### Home Department Chair and Hackathon Supporter: [Prof. Jon Olson](https://twitter.com/ProfJEOlson)
 
