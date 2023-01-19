@@ -103,11 +103,11 @@ By January 22 at 12:00 noon each team must submit:
 
 * **Python Workflow and Associated Files** - committed to this repository with the workflow as a Jupyter Notebook `.ipynb` file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
 
-    * the file must be named 'xxxx.ipynb' and pushed to GitHub for review and scoring (for code readability) by the hackathon architects, where **xxxx** is your team name.
+    * the file must be named `xxxx.ipynb` and pushed to GitHub for review and scoring (for code readability) by the hackathon architects, where **xxxx** is your team name.
 
 
 * **Presentation** - a PowerPoint slide deck .PPTX file for your team's final presentation to our judges. The submitted presentation should follow the format of the provided example presentation [Hackathon_PresentationTemplate](https://github.com/PGEHackathon/resources/blob/master/Hackathon_PresentationTemplate.pptx).
 
-    * the file must be named 'xxxx.pptx' and pushed to GitHub for review by the judges, where **xxxx** is your team name.
+    * the file must be named `xxxx.pptx` and pushed to GitHub for review by the judges, where **xxxx** is your team name.
 
 The Workflow, and Presentation templates are in the [PGEHackathon/resources](https://github.com/PGEHackathon/resources) repository. Use the [solution.csv](solution.csv) file (in this directory) to record your solution.
