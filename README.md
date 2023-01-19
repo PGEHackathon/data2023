@@ -112,5 +112,5 @@ By January 22 at 12:00 noon each team must submit:
 
     * the file must be named 'xxxx.pptx' and pushed to GitHub (folder [scoring/presentation](scoring/presentation) for review by the judges, where **xxxx** is your team name.
 
-The Workflow, Presentation submission templates and the results submission template are in the [PGEHackathon/resources](https://github.com/PGEHackathon/resources) repository.
+The Workflow, and Presentation templates are in the [PGEHackathon/resources](https://github.com/PGEHackathon/resources) repository. Use the solution.csv file (in this directory) to record your solution.
 
