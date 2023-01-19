@@ -82,7 +82,7 @@ The features include:
 
 * **Well_ID** - anonymized, unique well indicator
 * **AL_Key** - artificial lift key, unique index ESP, e.g., ESP_1 1st ESP in well, ESP_2 2nd ESP in well
-* **Fail in 30 days** - hackathon solution to be entered by the team, 0 = fail in 30 days, 1 = NOT fail in 30 days 
+* **Fail in 30 days** - hackathon solution to be entered by the team, 1 = fail in 30 days, 0 = NOT fail in 30 days 
 
 Comments: 
 
