@@ -4,7 +4,7 @@
 
 ### Architects: [Elnara Rustamzade](https://www.linkedin.com/in/elnara-rustamzade-779396162/) and [Ruoyu Wang](www.linkedin.com/in/ruoyu-wang1)
 
-### Home Department Chair and Hackathon Suporter: [Prof. Jon Olson](https://twitter.com/ProfJEOlson)
+### Home Department Chair and Hackathon Supporter: [Prof. Jon Olson](https://twitter.com/ProfJEOlson)
 
 ### Sponsors: [ComboCurve Inc.](https://www.combocurve.com/), [Pioneer Oil Company Inc.](https://pioneeroil.net/), [Chevron](https://www.chevron.com) and [Baker Hughes](https://www.bakerhughes.com/)
 
@@ -16,11 +16,11 @@ ___
 
 **Goal**: Develop a data analytics and machine learning workflow in Python to:
 
-* prediction / classification **"fail" or "not fail" within 30 days** for 40 Artifical Lift Electronic Submersible Pumps
+* prediction / classification **"fail" or "not fail" within 30 days** for 40 artificial lift Electronic Submersible Pumps
  
 #### Background
 
-In order to prevent the production loss caused by Electronic Submersible Pump (ESP) failures in Artifical Lifts, we challenge the Energy A.I. Hackathon 2023 teams of The University of Texas at Austin, engineering and science students to build a data-driven model to detect when an ESP is within 30 days of failure.
+In order to prevent the production loss caused by Electronic Submersible Pump (ESP) failures in artificial lift operations, we challenge the Energy A.I. Hackathon 2023 teams of The University of Texas at Austinto build a data-driven model to detect when an ESP is within 30 days of failure.
 
 This will require:
 
@@ -38,7 +38,7 @@ You have the following available data:
 
 #### Well / ESP Data
 
-* **wellData.csv** - data on 166 unique ESPs installed on 146 wells. All ESPs not in the solution.csv are assumed to have failed.
+* **[wellData.csv](wellData.csv)** - data on 166 unique ESPs installed on 146 wells. All ESPs not in the [solution.csv](solution.csv) are assumed to have failed.
 
 The features include:
 
@@ -55,7 +55,7 @@ The features include:
 
 #### Daily Data
 
-* **dailyData.csv** - dynamic data collected daily. For each well, there will be a row of data for each day that the ESP is installed.
+* **[dailyData.csv](dailyData.csv)** - dynamic data collected daily. For each well, there will be a row of data for each day that the ESP is installed.
 
 The features include:
 
@@ -76,7 +76,7 @@ The features include:
 
 #### Problem Set
 
-* **solution.csv** - a list of the ESPs that each group must predict if they will fail in 30 days. Note, these ESPs in the daily data have not failed yet.
+* **[solution.csv](solution.csv)** - a list of the ESPs that each group must predict if they will fail in 30 days. Note, these ESPs in the daily data have not failed yet.
 
 The features include:
 
@@ -94,23 +94,20 @@ ___
 
 ### Required Hackathon Submissions
 
-<span style='color:red'>Links below will be changed when all files are pushed to github</span>
-
 By January 22 at 12:00 noon each team must submit:
 
-* **Solution Table** - a .csv file with your predictions for the **test cases** using the template given in [Sample_Submission.csv](Sample_Submission.csv) in this directory.
+* **Solution Table** - a .csv file with your predictions for the **test cases** using the template given in [solution.csv](solution.csv) in this directory.
 
-    * the file must be named 'solution.csv' with final values in a commit and then pushed to Github (folder [scoring/submission](https://github.com/PGEHackathon/data/tree/master/scoring/submission)) for the automated scoring.
+    * the file must be named `solution.csv` with final values in a commit and then pushed to Github for automated scoring.
 
 
-* **Python Workflow and Associated Files** - committed to this repository with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
+* **Python Workflow and Associated Files** - committed to this repository with the workflow as a Jupyter Notebook `.ipynb` file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/resources/blob/main/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
 
-    * the file must be named 'xxxx.ipynb' and pushed to GitHub (folder [scoring/workflow](scoring/workflow) for review and scoring (for code readability) by the hackathon architects, , where **xxxx** is your team name.
+    * the file must be named 'xxxx.ipynb' and pushed to GitHub for review and scoring (for code readability) by the hackathon architects, where **xxxx** is your team name.
 
 
 * **Presentation** - a PowerPoint slide deck .PPTX file for your team's final presentation to our judges. The submitted presentation should follow the format of the provided example presentation [Hackathon_PresentationTemplate](https://github.com/PGEHackathon/resources/blob/master/Hackathon_PresentationTemplate.pptx).
 
-    * the file must be named 'xxxx.pptx' and pushed to GitHub (folder [scoring/presentation](scoring/presentation) for review by the judges, where **xxxx** is your team name.
+    * the file must be named 'xxxx.pptx' and pushed to GitHub for review by the judges, where **xxxx** is your team name.
 
-The Workflow, and Presentation templates are in the [PGEHackathon/resources](https://github.com/PGEHackathon/resources) repository. Use the solution.csv file (in this directory) to record your solution.
-
+The Workflow, and Presentation templates are in the [PGEHackathon/resources](https://github.com/PGEHackathon/resources) repository. Use the [solution.csv](solution.csv) file (in this directory) to record your solution.
