@@ -38,7 +38,7 @@ You have the following available data:
 
 #### Well / ESP Data
 
-* **wellData.csv** - data on 166 unique ESPs installed on 146 wells. For example, if an ESP fails and a new ESP is installed, there are two rows for one well, one for ESP_1 and another for ESP_2.
+* **wellData.csv** - data on 166 unique ESPs installed on 146 wells. All ESPs not in the solution.csv are assumed to have failed.
 
 The features include:
 
@@ -74,6 +74,15 @@ The features include:
 * **Power_Ratio** - ratio of pump power to drive power
 * **Power_Difference (psi)** - the difference between drive and pump power
 
+#### Problem Set
+
+* **solution.csv** - a list of the ESPs that each group must predict if they will fail in 30 days. Note, these ESPs in the daily data have not failed yet.
+
+The features include:
+
+* **Well_ID** - anonymized, unique well indicator
+* **AL_Key** - artificial lift key, unique index ESP, e.g., ESP_1 1st ESP in well, ESP_2 2nd ESP in well
+* **Fail in 30 days** - hackathon solution to be entered by the team, 0 = fail in 30 days, 1 = NOT fail in 30 days 
 
 Comments: 
 
