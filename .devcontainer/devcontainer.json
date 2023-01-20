@@ -5,8 +5,7 @@
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
-	}
-
+	},
     "extensions: [
         "julialang.language-julia",
         "ms-python.python"
