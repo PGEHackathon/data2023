@@ -6,7 +6,7 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
-    "extensions: [
+    "extensions": [
         "julialang.language-julia",
         "ms-python.python"
     ]
