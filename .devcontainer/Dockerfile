@@ -18,8 +18,8 @@ RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.5-linux-
     julia -e 'using Pkg; Pkg.add("IJulia")'
 
 # Install R kernel
-#RUN R CMD BATCH /tmp/conda-tmp/install_kernel.R \
-    #&& rm -rf /tmp/conda-tmp
+RUN Rscript -e 'install.packages("IRkernel", repos="https://cloud.r-project.org"); IRkernel::installspec(user = FALSE)' \
+    && rm -rf /tmp/conda-tmp
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
