@@ -8,7 +8,8 @@
 	},
     "extensions": [
         "julialang.language-julia",
-        "ms-python.python"
+        "ms-python.python",
+        "reditorsupport.r"
     ]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
