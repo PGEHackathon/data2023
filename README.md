@@ -20,7 +20,7 @@ ___
  
 #### Background
 
-In order to prevent the production loss caused by Electronic Submersible Pump (ESP) failures in artificial lift operations, we challenge the Energy A.I. Hackathon 2023 teams of The University of Texas at Austinto build a data-driven model to detect when an ESP is within 30 days of failure.
+In order to prevent the production loss caused by Electronic Submersible Pump (ESP) failures in artificial lift operations, we challenge the Energy A.I. Hackathon 2023 teams of The University of Texas at Austin to build a data-driven model to detect when an ESP is within 30 days of failure.
 
 This will require:
 
@@ -82,7 +82,7 @@ The features include:
 
 * **Well_ID** - anonymized, unique well indicator
 * **AL_Key** - artificial lift key, unique index ESP, e.g., ESP_1 1st ESP in well, ESP_2 2nd ESP in well
-* **Fail in 30 days** - hackathon solution to be entered by the team, 1 = fail in 30 days, 0 = NOT fail in 30 days 
+* **Fail in 30 days** - hackathon solution to be entered by the team, 1 = WILL fail in 30 days, 0 = WILL NOT fail in 30 days 
 
 Comments: 
 
