@@ -13,7 +13,8 @@ RUN conda install mamba -c conda-forge -y; \
 RUN wget https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.5-linux-x86_64.tar.gz; \
     tar -xvzf julia-1.8.5-linux-x86_64.tar.gz; \
     cp -r julia-1.8.5 /opt/; \
-    ln -s /opt/julia-1.8.5/bin/julia /usr/local/bin/julia
+    ln -s /opt/julia-1.8.5/bin/julia /usr/local/bin/julia; \
+    julia -e 'using Pkg; Pkg.add("IJulia")'
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \

@@ -7,6 +7,11 @@
 		"dockerfile": "Dockerfile"
 	}
 
+    "extensions: [
+        "julialang.language-julia",
+        "ms-python.python"
+    ]
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 

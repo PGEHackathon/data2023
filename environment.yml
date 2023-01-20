@@ -4,3 +4,6 @@ channels:
 dependencies:
   - python=3.10
   - ipython=8.8
+  - anaconda
+  - tensorflow=2.11
+  - pytorch=1.13.1
