@@ -6,7 +6,7 @@ COPY environment.yml* .devcontainer/conda_init.txt /tmp/conda-tmp/
 RUN conda install mamba -c conda-forge -y; \
     mamba install anaconda; \
     pip install pyOpenSSL --upgrade; \
-    mamba install jupyterlab jupyterlab-git r-base r-essentials keras tensorflow pytorch cpuonly -c conda-forge -c pytorch -y; \
+    mamba install jupyterlab jupyterlab-git pandas matplotlib scikit-learn bokeh seaborn r-base r-essentials keras tensorflow pytorch cpuonly -c conda-forge -c pytorch -y; \
     if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && mamba env update -n base -f /tmp/conda-tmp/environment.yml; fi \
     && cat /tmp/conda-tmp/conda_init.txt >> /home/vscode/.bashrc
 
