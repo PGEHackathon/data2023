@@ -6,7 +6,7 @@
 
 ### Home Department Chair and Hackathon Supporter: [Prof. Jon Olson](https://twitter.com/ProfJEOlson)
 
-### Sponsors: [ComboCurve Inc.](https://www.combocurve.com/), [Pioneer Oil Company Inc.](https://pioneeroil.net/), [Chevron](https://www.chevron.com) and [Baker Hughes](https://www.bakerhughes.com/)
+### Sponsors: [ComboCurve Inc.](https://www.combocurve.com/), [Pioneer Natural Resources](https://pioneeroil.net/), [Chevron](https://www.chevron.com) and [Baker Hughes](https://www.bakerhughes.com/)
 
 ### Coordination and Student Engagement: Gabby Banales, Trevor Oxley, Samantha Rabinowitz and Stacia Miller
 
